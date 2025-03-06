@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "I’ve been part of the Cardano community for a while now, and honestly, it’s more than just a project to me—it’s a group of people who believe we can build something real and lasting together. When I first got into Cardano, it was the idea of decentralization and giving everyone a voice that hooked me. The roadmap we’re talking about? It’s not just a dry list of tech updates—it’s a reflection of that vision I fell for. It’s personal because it feels like my values—collaboration, transparency, and purpose—are baked into it.\n\nOne thing that really gets me excited is how this roadmap lets DReps like us step up and shape the plan. That hits home hard. I got into Cardano because I wanted to be part of something where my voice matters, and this process—where we can vote and give feedback—makes me feel like I’m not just watching from the sidelines. It’s like when you’re part of a team working on a project you care about, and you know your ideas can actually steer the ship. That’s why I’m voting yes—it’s not just a “good plan” to me; it’s a plan that lines up with why I’m here in the first place.\n\nI also love how it mixes quick wins with big-picture goals. Life can get hectic, and it’s easy to focus on the now, but this roadmap looks ahead to 2025 and beyond in a way that feels thoughtful. It gives me this quiet confidence that we’re not just chasing trends—we’re building something that’ll stick around. That kind of care makes me proud to be part of this crew.\n\nSo, for me, it’s personal because it’s tied to what I believe in and why I stick around. I’d love to hear what makes it personal for you too—maybe it’s the community, the tech, or something else entirely? Let’s keep shaping this future together! What do you think?"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
